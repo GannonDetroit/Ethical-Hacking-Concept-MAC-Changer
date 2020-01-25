@@ -8,8 +8,8 @@ This tool is just a proof of concept and not intended to be used for any illegal
 
 - user can add -i to input the interface that you want to change (this will usually be eth0 or wlan0 depending if you're on wifi or not).
 
-    `"-i", "--interface", dest="interface", help="Interface to change its MAC address, like eth0."
-    "-m", "--mac", dest="new_mac", help="Input a desired MAC address"`
+    `"-i", "--interface", dest="interface", help="Interface to change its MAC address, like eth0."`
+    `"-m", "--mac", dest="new_mac", help="Input a desired MAC address"`
 
 - if you don't know what interfaces you can target:
     - on Linux and Mac use the `ifconfig` command.
